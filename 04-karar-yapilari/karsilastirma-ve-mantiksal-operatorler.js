@@ -35,3 +35,12 @@ console.log(price > 0 || user != "guest")
 user = "guest"
 price = 1
 console.log(price > 0 && !user == "guest")
+
+
+let firstCity = "Ankara";
+
+       let secondCity = "İstanbul";
+
+       const isEqual = (firstCity === secondCity) ? "İki şehir aynı" : "İki şehir aynı değil";
+
+       console.log(isEqual)
