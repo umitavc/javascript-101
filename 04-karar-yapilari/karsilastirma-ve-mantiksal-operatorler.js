@@ -1,41 +1,37 @@
 
 
 let price = "100"
-let user ="umit"
+let user = "umit"
 
 //eşitse
-console.log("== :" ,price == 1)
-console.log("== :" ,price == 100)
+console.log("== :", price == 1)
+console.log("== :", price == 100)
 
 //hem dergeri hem turu esitse
-console.log( "== :",price === 1)
-console.log("== :" ,price === 100)
+console.log("== :", price === 1)
+console.log("== :", price === 100)
 
 //eşit değilse
-console.log("!= :",user !="guest")
-
+console.log("!= :", user != "guest")
 
 //küçükse
-console.log("price <100 :", price <100)
-
+console.log("price <100 :", price < 100)
 
 //kücük veya eşit
 console.log("price <= 100 :", price <= 100)
 
-
 //büyükse
-console.log("price >1000 :", price >1000)
+console.log("price >1000 :", price > 1000)
 
 //büyük veya eşitse
-console.log("price >=99 :", price >=99)
-
+console.log("price >=99 :", price >= 99)
 
 //&& ve
-price =0
-console.log( price >0 &&  user!= "guest")
+price = 0
+console.log(price > 0 && user != "guest")
 // || veya
-console.log( price >0 ||  user!= "guest")
+console.log(price > 0 || user != "guest")
 // ! değig (tersi)
-user ="guest"
-price =1
-console.log( price >0 && !user == "guest")
+user = "guest"
+price = 1
+console.log(price > 0 && !user == "guest")
